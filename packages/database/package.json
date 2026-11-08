@@ -1,0 +1,14 @@
+{
+  "name": "kumpul-database",
+  "version": "0.0.1",
+  "description": "Database migrations and seeds for Kumpul",
+  "type": "module",
+  "scripts": {
+    "migrate": "node src/migrate.ts",
+    "seed": "node src/seed.ts"
+  },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  }
+}
